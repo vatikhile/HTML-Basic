@@ -1,0 +1,922 @@
+@media all
+{
+body{
+	font-family:segoe UI;
+	margin:0px;
+	padding:0px;
+}
+
+#container{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+#header,#banner,#body,#footer{
+	width: 840px;
+	margin:auto;
+}
+
+#body1, #body2, #body3, #body4{
+	width:840px;
+	float:left;
+	padding:0px;
+}
+ 
+/*.............................Header......................*/
+
+
+#header,#h_left,#h_right{
+	height:60px;
+}
+
+#h_left{
+	float:left;
+}
+#h_right{
+	float:right;
+}
+
+#header h1{
+	/* font-family: ; */
+	font-size: 28px;
+}
+#change{
+	color: #597b2c;
+}
+#h_right p{
+	font-family:arial;
+	font-size:9px;
+	margin-top:20px;
+}
+#btn_reg {
+	background-color: #597b2c;
+	padding:0px;
+	float: left;
+	color: #fff;
+	margin-right:50px;
+	width:auto;
+	height:auto;
+	padding:9px 15px;
+	border-radius: 7px;
+	
+}
+
+/*.............................Navigation......................*/
+
+#nav{
+	width: 100%;
+	height: 60px;
+	background-color: #303133;
+	margin: 0px;
+	padding: 0px;
+	
+}
+#nav_in{
+	width:840px;
+	margin:auto;
+}
+
+#nav ul{
+	list-style:none;
+	padding:0px;
+	margin:opx;
+}
+#nav li{
+	float:left;
+	font-family:cambria;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	margin:none;
+	padding:21px 48px;
+}
+#nav .active {
+	background-color:#50b0d8;
+}
+
+li:hover{
+	background-color:#50b0d8;
+	cursor:pointer;
+}
+
+
+
+
+/*....................................Banner.....................*/
+
+#banner{
+	margin-top:9px;
+}
+
+#banner1{
+	width:554px;
+	height:403px;
+	float:left;
+}
+#first{
+	height:241px;
+	width:554px;
+}
+#first img{
+	padding:0px;
+	height:241px;
+	width:554px;
+}
+#first h1{
+	position:absolute;
+	padding:0px;
+	margin-top:120px;
+	margin-left:20px;
+	color:#fff;
+	line-height:30px;
+}
+
+#second{
+	height:150px;
+	width:554px;
+	background-color:#e1c146;
+	margin-top:9px;
+}
+#second img{
+	height:132px;
+	width:160px;
+	padding:9px;
+	float:left;
+}
+#second h3{
+	float:left;
+	color:#fff;
+	font-size:140%;
+	padding:0px;
+	line-height:8px;
+}
+#second p{
+	font-size:12px;
+	color:#fff;
+	margin:0px;
+	padding:0px;
+}
+
+#banner2{
+	width:277px;
+	height:403px;
+	margin-left:9px;
+	float:left;
+}
+#banner2 h3{
+	font-size:50px;
+	margin:0px;
+	padding:0px;
+	font-family:cambria;
+	height:51px;
+}
+#l_ban{
+	width:264px;
+	height:280px;
+	float:left;
+	margin-top:9px;
+	margin-right:4px;
+}
+#l_ban img{
+	height:55px;
+	width:55px;
+	float:left;
+	margin-right:5px;
+}
+#l_post{
+	width:260px;
+	height:55px;
+	margin-right:4px;
+}
+#date{
+	color:#50b0d8;
+	font-size:6px;
+}
+#post_info{
+	font-size:9px;
+}
+#post_info p{
+	padding:0px;
+	margin:0px;
+	margin-bottom:5px;
+}
+#r_arrow img{
+	height:8px;
+	width:10px;
+	float:left;
+}
+#post_hr{
+	border:0px;
+	height:1px;
+	background-color:lightgrey;
+} 	
+
+#r_ban{ 
+	width:9px;
+	height:280px;
+	background-color:#50b0d8;
+	float:left;
+	margin-top:9px;
+}
+#book_btn{
+	width:277px;
+	height:51px;
+	padding:0px;
+	background-color:#50b0d8;
+	float:left;
+	margin-top:9px;
+	border-radius:2px;
+}
+#book_btn p{
+	font-size:20px;
+	font-family:arial;
+	font-weight:bold;
+	color:#fff;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	margin-top:10px;	
+}
+
+
+/*.................................Body1............................*/ 
+ 
+.block{
+	height:auto;
+	width:274;
+	float:left;
+	margin-top:9px;
+	margin-right:9px;
+}
+
+.block h3{
+	font-size:26px;
+	font-weight:800px;
+	color:#303030;
+	margin-bottom:9px;
+	padding:0px;
+}
+.block img{
+	height:200px;
+	width:274px;
+}
+#b_heading{
+	font-size:15px;
+	color:#303030;
+	font-weight:400;
+}
+.block ,#block_r p{
+	font-size:9px;
+	color:#79767a;
+} 
+#r_more{
+	color:#50b0d8;
+	font-size:8px;
+	float:left;
+}
+
+#block_r{
+	height:auto;
+	width:274;
+	float:left;
+	margin-top:9px;
+	margin-right:0px;
+}
+#block_r h3{
+	font-size:26px;
+	font-weight:800px;
+	color:#303030;
+	margin-bottom:9px;
+	padding:0px;
+}
+ 
+#block_r img{
+	height:200px;
+	width:274px;
+}
+#r_arrow img{
+	margin:3px 3px;
+	height:9px;
+	width:11px;
+	float:left;
+}
+
+/*.........................Body2.............................*/ 
+
+#body2{
+	margin-top:20px;
+}
+
+#body2 h3{
+	font-size:26px;
+	font-weight:800px;
+	color:#30h3030;
+	margin:0px;
+}
+.service{
+	width:274px;
+	height:80px;
+	background-color:whitesmoke;
+	margin-top:9px;
+	margin-right:9px;
+	float:left;
+}
+#m_none .service{
+	margin-right:0px;
+	float:left;
+}
+
+.service img{
+	height:30px;
+	width:30px;
+	margin:25px 15px;
+	float:left;
+}
+.service p{
+	font-size:10px;
+	color:#79767a;
+	margin:25px 15px;
+}
+
+/*.................................Body3.........................*/
+
+#body3{
+	margin-top:10px;
+}
+#body3 h3{
+	margin:0px;
+	padding:0px;
+	font-size:26px;
+	font-weight:800px;
+	color:#303030;
+	width:800px;
+	float:left;
+	margin:12px 0px;
+}
+#body3 img{
+	height:16px;
+	width:16px;
+	float:left;
+	margin-top:25px;
+	margin-left:4px;
+}
+#hotels img{
+	padding:0px;
+	margin:0px;
+	margin-right:9px;
+	margin-top:9px;
+	float:left;
+	height:150px;
+	width:274px;
+}
+#mr_none img{
+	margin-right:0px;
+	float:left;
+}
+.hotel_info{
+	width:180px;
+	height:70px;
+	background-color:white;
+	position:absolute;
+	float:left;
+}
+
+.hotel_info p{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	color:darkgrey;
+	margin-top:18px;
+	margin-left:30px;
+}
+
+#hot_arrow img{
+	height:8px;
+	width:10px;
+	float:left;
+	margin-left:3px;
+	margin-top:9px;
+}
+#hot_more{
+	color:#50b0d8;
+	font-size:9px;
+	float:left;
+	font-weight:400;
+	margin:0px;
+	padding:0px;
+	margin-left:60px;
+	margin-top:6px;
+}
+#h_i1{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:47px;
+	margin-top:110px;
+}
+#h_i2{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:330px;
+	margin-top:110px;
+}
+#h_i3{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:615px;
+	margin-top:110px;
+}
+#h_i4{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:47px;
+	margin-top:270px;
+}
+#h_i5{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:330px;
+	margin-top:270px;
+}
+#h_i6{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:615px;
+	margin-top:270px;
+}
+
+/*............................Body4...........................*/
+ 
+/*............................Footer...........................*/
+  
+
+.f_block{
+	width:274px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	margin-right:9px;
+	margin-top:20px;
+}
+.f_block h3{
+	font-size:20px;
+}
+.f_block p{
+	font-size:10px;
+}
+.f_block img{
+	height:20px;
+	width:20px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.f_block br{
+	height:5px;
+}
+#social img{
+	height:40px;
+	width:20px;
+	float:left;
+	margin-right:10px;
+	margin-top:30px;
+}
+#margin_no .f_block{
+	margin-right:0px;
+}
+}
+@media screen and (min-width:320px) and (max-width:349px){
+#header,#banner,#body,#footer{
+	width: 305px;
+	margin:auto;
+}
+
+#body1, #body2, #body3, #body4{
+	width:305px;
+	float:left;
+	padding:0px;
+}
+ 
+/*.............................Header......................*/
+
+#header{
+}
+#header,#h_left,#h_right{
+	height:35px;
+	vertical-align:center;
+	margin-bottom:5px;
+}
+
+#h_left{
+	float:left;
+}
+#h_right{
+	float:right;
+}
+
+#header h1{
+	font-size: 18px;
+	margin-top:5px;
+	padding:0px;
+}
+#h_right p{
+	font-size:8px;
+	margin-top:15px;
+	margin-right:10px;
+}
+#btn_reg {
+	padding:0px;
+	float: left;
+	margin-right:5px;
+	padding:3px 4px;
+}
+
+/*.............................Navigation......................*/
+
+#nav{
+	height: 186px;	
+}
+#nav_in{
+	width:320px;
+	margin:auto;
+	height: 84px;
+}
+#nav ul{
+	float:none;
+	padding:0px;;
+	margin:0px;
+}
+#nav li{
+	float:none;
+	font-size:12px;
+	text-align:center;
+	padding:8px 0px;
+}
+/*....................................Banner.....................*/
+
+#banner{
+	margin:0px;
+}
+
+#banner1{
+	width:320px;
+	height:330px;
+	margin:0px;
+	padding:0px;
+	float:none;
+}
+#first{
+	width:320px;
+	height:160px;
+}
+#first img{
+	padding:0px;
+	width:320px;
+	height:160px;
+}
+#first h1{
+	font-size:24px;
+	margin-top:70px;
+	color:whitesmoke;
+	line-height:24px;
+	
+}
+
+#second{
+	height:165px;
+	width:320px;
+	margin:0px;
+}
+#second img{
+	height:88px;
+	width:100px;
+	padding:5px;
+	float:left;
+}
+#second h3{
+	float:left;
+	color:#fff;
+	font-size:1em;
+	line-height:16px;
+	width:210px;
+	text-align:center;
+}
+#second p{
+	font-size:12px;
+	color:#fff;
+	padding:5px;
+	text-align:justify;
+	line-height:13px;
+}
+#banner2{
+	width:320px;
+	height:400px;
+	margin-left:5px;
+	float:none;
+	margin-top:5px;
+}
+#banner2 h3{
+	font-size:40px;
+	margin:0px;
+	padding:0px;
+	height:41px;
+}
+#l_ban{
+	width:295px;
+	height:290px;
+	float:left;
+	margin-top:5px;
+	margin-right:4px;
+}
+#l_ban img{
+	height:60px;
+	width:60px;
+	float:left;
+	margin-right:10px;
+}
+#l_post{
+	width:260px;
+	height:55px;
+	margin-right:0px;
+	margin-bottom:12px;
+}
+#post_info p{
+	padding:0px;
+	margin:0px;
+	margin-bottom:5px;
+}	
+
+#r_ban{ 
+	width:10px;
+	height:290px;
+	background-color:#50b0d8;
+	float:left;
+	margin-top:5px;
+}
+#book_btn{
+	width:310px;
+	height:51px;
+	margin-top:9px;
+	float:left;
+}
+#book_btn p{
+	margin-top:10px;
+}
+/*.................................Body1............................*/ 
+ 
+#body1{
+	visibility:hidden;
+	position:absolute;
+	margin:0px;
+	padding:0px;
+}
+
+/*.........................Body2.............................*/ 
+
+#body2{
+	margin-top:20px;
+}
+#body2 h3{
+	font-size:1.6em;
+	font-weight:800px;
+	color:#30h3030;
+	margin:0px;
+	text-align:center;
+}
+.service{
+	width:300px;
+	height:auto;
+	background-color:whitesmoke;
+	margin-top:9px;
+	margin-right:none;
+	float:left;
+}
+.service img{
+	height:30px;
+	width:30px;
+	margin:20px 15px;
+	float:left;
+}
+.service p{
+	font-size:10px;
+	color:#79767a;
+	margin:20px 15px;
+	text-align:justify;
+}
+
+/*.................................Body3.........................*/
+ #body3{
+	margin-top:10px;
+}
+#body3 h3{
+	margin:0px;
+	padding:0px;
+	font-size:26px;
+	font-weight:800px;
+	color:#303030;
+	width:800px;
+	float:left;
+	margin:12px 0px;
+}
+#body3 img{
+	height:16px;
+	width:16px;
+	float:left;
+	margin-top:25px;
+	margin-left:4px;
+}
+#hotels img{
+	padding:0px;
+	margin:0px;
+	margin-right:9px;
+	margin-top:9px;
+	float:left;
+	height:150px;
+	width:274px;
+}
+#mr_none img{
+	margin-right:0px;
+	float:left;
+}
+.hotel_info{
+	width:180px;
+	height:70px;
+	background-color:white;
+	position:absolute;
+	float:left;
+}
+
+.hotel_info p{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	color:darkgrey;
+	margin-top:18px;
+	margin-left:30px;
+}
+
+#hot_arrow img{
+	height:8px;
+	width:10px;
+	float:left;
+	margin-left:3px;
+	margin-top:9px;
+}
+#hot_more{
+	color:#50b0d8;
+	font-size:9px;
+	float:left;
+	font-weight:400;
+	margin:0px;
+	padding:0px;
+	margin-left:60px;
+	margin-top:6px;
+}
+#h_i1{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:47px;
+	margin-top:110px;
+}
+#h_i2{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:330px;
+	margin-top:110px;
+}
+#h_i3{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:615px;
+	margin-top:110px;
+}
+#h_i4{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:47px;
+	margin-top:270px;
+}
+#h_i5{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:330px;
+	margin-top:270px;
+}
+#h_i6{
+	width:180px;
+	height:70px;
+	position:absolute;
+	margin-left:615px;
+	margin-top:270px;
+}
+
+/*............................Body4...........................*/
+  .block{
+	height:auto;
+	width:274;
+	float:left;
+	margin-top:9px;
+	margin-right:9px;
+}
+
+.block h3{
+	font-size:26px;
+	font-weight:800px;
+	color:#303030;
+	margin-bottom:9px;
+	padding:0px;
+}
+.block img{
+	height:274px;
+	width:274px;
+}
+#b_heading{
+	font-size:15px;
+	color:#303030;
+	font-weight:400;
+}
+.block ,#block_r p{
+	font-size:9px;
+	color:#79767a;
+} 
+#r_more{
+	color:#50b0d8;
+	font-size:8px;
+	float:left;
+}
+
+#block_r{
+	height:auto;
+	width:274;
+	float:left;
+	margin-top:9px;
+	margin-right:0px;
+}
+#block_r h3{
+	font-size:26px;
+	font-weight:800px;
+	color:#303030;
+	margin-bottom:9px;
+	padding:0px;
+}
+ 
+#block_r img{
+	height:274px;
+	width:274px;
+}
+#r_arrow img{
+	margin:3px 3px;
+	height:9px;
+	width:11px;
+	float:left;
+}
+
+/*............................Footer...........................*/
+  
+
+.f_block{
+	width:274px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	margin-right:9px;
+	margin-top:20px;
+}
+.f_block h3{
+	font-size:20px;
+}
+.f_block p{
+	font-size:10px;
+}
+.f_block img{
+	height:20px;
+	width:20px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.f_block br{
+	height:5px;
+}
+#social img{
+	height:40px;
+	width:20px;
+	float:left;
+	margin-right:10px;
+	margin-top:30px;
+}
+#margin_no .f_block{
+	margin-right:0px;
+}
+
+}

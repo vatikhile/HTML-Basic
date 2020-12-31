@@ -1,0 +1,9 @@
+/*          	Header	         */ 
+header h1 : 18px;
+#header,#h_left,#h_right{
+40px;
+}
+#h_right p{
+	font-size:7px;
+	margin-top:20px;
+}

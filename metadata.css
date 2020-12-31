@@ -1,0 +1,198 @@
+
+#header,#banner,#body,#footer{
+	width: 305px;
+	margin:auto;
+}
+
+#body1, #body2, #body3, #body4{
+	width:305px;
+	float:left;
+	padding:0px;
+}
+
+/*          	Header	         */ 
+header h1 : 18px;
+#header,#h_left,#h_right{
+40px;
+}
+#h_right p{
+	font-size:7px;
+	margin-top:20px;
+}
+
+/*.............................Navigation......................*/
+#nav{
+	height: 186px;	
+}
+#nav_in{
+	width:320px;
+	margin:auto;
+	height: 84px;
+}
+#nav ul{
+	float:none;
+	padding:0px;;
+	margin:0px;
+}
+#nav li{
+	float:none;
+	font-size:12px;
+	text-align:center;
+	padding:8px 0px;
+}
+
+/*....................................Banner.....................*/
+
+#banner{
+	margin:0px;
+}
+
+#banner1{
+	width:320px;
+	height:330px;
+	margin:0px;
+	padding:0px;
+	float:none;
+}
+#first{
+	width:320px;
+	height:160px;
+}
+#first img{
+	padding:0px;
+	width:320px;
+	height:160px;
+}
+#first h1{
+	font-size:24px;
+	margin-top:70px;
+	color:whitesmoke;
+	line-height:24px;
+	
+}
+
+#second{
+	height:165px;
+	width:320px;
+	margin:0px;
+}
+#second img{
+	height:88px;
+	width:100px;
+	padding:5px;
+	float:left;
+}
+#second h3{
+	float:left;
+	color:#fff;
+	font-size:1em;
+	line-height:16px;
+	width:210px;
+	text-align:center;
+}
+#second p{
+	font-size:12px;
+	color:#fff;
+	padding:5px;
+	text-align:justify;
+	line-height:13px;
+}
+#banner2{
+	width:320px;
+	height:440px;
+	margin-left:5px;
+	float:none;
+	margin-top:5px;
+}
+#banner2 h3{
+	font-size:40px;
+	margin:0px;
+	padding:0px;
+	height:41px;
+}
+#l_ban{
+	width:295px;
+	height:290px;
+	float:left;
+	margin-top:5px;
+	margin-right:4px;
+}
+#l_ban img{
+	height:60px;
+	width:60px;
+	float:left;
+	margin-right:10px;
+}
+#l_post{
+	width:260px;
+	height:55px;
+	margin-right:0px;
+	margin-bottom:12px;
+}
+#post_info p{
+	padding:0px;
+	margin:0px;
+	margin-bottom:5px;
+}	
+
+#r_ban{ 
+	width:10px;
+	height:290px;
+	background-color:#50b0d8;
+	float:left;
+	margin-top:5px;
+}
+#book_btn{
+	width:310px;
+	height:51px;
+	margin-top:9px;
+	float:left;
+}
+#book_btn p{
+	margin-top:10px;
+}
+
+/*.................................Body1............................*/ 
+ 
+#body1{
+	visibility:hidden;
+	position:absolute;
+	margin:0px;
+	padding:0px;
+}
+
+/*.........................Body2.............................*/ 
+
+#body2{
+	margin-top:20px;
+}
+#body2 h3{
+	font-size:1.6em;
+	font-weight:800px;
+	color:#30h3030;
+	margin:0px;
+	text-align:center;
+}
+.service{
+	width:300px;
+	height:auto;
+	background-color:whitesmoke;
+	margin-top:9px;
+	margin-right:none;
+	float:left;
+}
+.service img{
+	height:30px;
+	width:30px;
+	margin:20px 15px;
+	float:left;
+}
+.service p{
+	font-size:10px;
+	color:#79767a;
+	margin:20px 15px;
+	text-align:justify;
+}
+
+/*.................................Body3.........................*/
+
