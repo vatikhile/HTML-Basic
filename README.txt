@@ -1,1 +1,1 @@
-Basic HTML and CSS
+Demo Project(UI) of Hotel Management Using Basic HTML and CSS.
